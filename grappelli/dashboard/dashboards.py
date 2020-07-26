@@ -3,9 +3,9 @@
 """
 Module where grappelli dashboard classes are defined.
 """
+import six
 
 # DJANGO IMPORTS
-from django.utils import six
 from django.utils.translation import ugettext_lazy as _
 from django.core.urlresolvers import reverse
 from django import forms

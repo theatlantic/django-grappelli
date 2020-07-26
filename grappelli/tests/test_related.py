@@ -2,13 +2,14 @@
 
 # PYTHON IMPORTS
 import datetime
+import six
 
 # DJANGO IMPORTS
 from django.test import TestCase
 from django.test.utils import override_settings
 from django.contrib.auth.models import User
-from django.core.urlresolvers import reverse
-from django.utils import six, translation, timezone
+from django.urls import reverse
+from django.utils import translation, timezone
 
 try:
     import json
